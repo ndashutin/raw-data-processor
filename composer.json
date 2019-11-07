@@ -1,0 +1,25 @@
+{
+  "name": "ndashutin/raw-data-processor",
+  "description": "Encode data from string | Decode data to string",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Nikolay Dashiton",
+      "email": "mikola.dashutin@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.3",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "ndashutin\\tools\\rawdataprocessor\\": "src",
+      "ndashutin\\tools\\rawdataprocessor\\tests\\": "tests"
+    }
+  }
+}
